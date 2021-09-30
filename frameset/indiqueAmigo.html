@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indique um Amigo</title>
+    <link rel="stylesheet" href="../css/indiqueAmigo.css">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <h1>FAÇA SEU CADASTRO E RECEBA NOVIDADES !</h1>
+
+    <form name="frm_indiqueAmigo">
+        <fieldset>
+            <legend>DADOS PESSOAIS</legend>
+            <img src="../img/add new user.png">
+            <p>CPF</p>
+            <input type="text" name="txt_cpf" size="20" maxlength="40">
+            <p>NOME DO CLIENTE</p>
+            <input type="text" name="txt_nome"size="40" maxlength="40">
+            <p>ENDEREÇO</p>
+            <input type="text" name="txt_endereco" size="50" maxlength="40">
+            <p>CIDADE</p>
+            <select name="cidade">
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="mt">Mato Grosso</option>
+                <option value="ac">Acre</option>
+                <option value="rg">Rio Grande do Sul</option>
+            </select>
+            Sexo: &nbsp; &nbsp;
+            <input type="radio" name="sexo">Masculino&nbsp; &nbsp;
+            <input type="radio" name="sexo">Feminino
+            <p>E-MAIL</p>
+            <input type="text" name="txt_email" size="80" maxlength="40">
+            <h2>GÊNEROS DE FILMES DO SEU INTERESSE:</h2>
+            <input type="checkbox" name="genero">Aventura&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+            <input type="checkbox" name="genero">Comédia&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+            <input type="checkbox" name="genero">Romance
+            <br>
+            <input type="checkbox" name="genero">Ação&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+            <input type="checkbox" name="genero">Drama&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+            <input type="checkbox" name="genero">Suspense
+            <a href="home.html">Voltar para a página Inicial</a>
+        </fieldset>
+
+        <div id="btn">
+            <input class="btn_enviar" type="button" name="btn_enviar" value="ENVIAR" onClick="enviar()">
+            <input class="btn_limpar" type="button" name="btn_limpar" value="LIMPAR" onclick="limparAmi()">
+         </div>
+    </form>
+
+</body>
+</html>

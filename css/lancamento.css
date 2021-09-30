@@ -1,0 +1,143 @@
+*{
+    margin:  0;
+    padding: 0;
+    font-family: Arial;
+    background-color: grey;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+#zoom{
+    margin-top: 3%;
+    overflow: hidden;
+}
+
+/* Imagem 1*/
+
+.lancamento1{
+    width: 15%;
+    margin-left: 10%;
+   
+}
+
+.lancamento1{
+    max-width: 100%;
+    -moz-transition: all 0,3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.lancamento1:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Imagem 2*/
+
+.lancamento2{
+    width: 15%;
+    margin-left: 15%;
+   
+}
+
+.lancamento2{
+    max-width: 100%;
+    -moz-transition: all 0,3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.lancamento2:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Imagem 3*/
+
+.lancamento3{
+    width: 15%;
+    margin-left: 15%;
+}
+
+.lancamento3{
+    max-width: 100%;
+    -moz-transition: all 0,3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.lancamento3:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Imagem 4*/
+
+.lancamento4{
+    width: 15%;
+    margin-left: 10%;
+   
+}
+
+.lancamento4{
+    max-width: 100%;
+    -moz-transition: all 0,3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.lancamento4:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Imagem 5*/
+
+.lancamento5{
+    width: 15%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.lancamento5{
+    max-width: 100%;
+    -moz-transition: all 0,3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.lancamento5:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Imagem 6*/
+
+.lancamento6{
+    width: 15%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.lancamento6{
+    max-width: 100%;
+    -moz-transition: all 0,3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.lancamento6:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

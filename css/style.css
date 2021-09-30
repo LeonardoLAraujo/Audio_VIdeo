@@ -1,0 +1,100 @@
+*{
+    margin:  0;
+    padding: 0;
+    font-family: Arial;
+    background-color: grey;
+    color: white;
+}
+
+#logo{
+    text-align: center;
+}
+
+.banner{
+    background-color: white;
+    padding: 20px 300px 20px 300px; /* top - rigth - bottom - left */
+    border-bottom: 2px black solid;
+}
+
+h1{
+    text-align: center;
+    margin-top: 3%;
+}
+
+fieldset{
+    margin: 3% 35% 0% 35%;
+    padding: 10px 20px;
+    border: 3px white solid;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    padding: 0.5%;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+#btn{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.btn_entrar{
+    font-size: 17px;
+    padding: 5px 30px 5px 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+.btn_entrar:hover{
+    background-color: rgb(133, 12, 12);
+}
+
+.btn_limpar{
+    font-size: 17px;
+    padding: 5px 30px 5px 30px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+.btn_limpar:hover{
+    background-color: rgb(133, 12, 12);
+}
+
+#pgInicial{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15%;
+}
+
+.banner2{
+    background-color: white;
+    padding: 20px 270px 40px 269px; /* top - rigth - bottom - left */
+    border-bottom: 2px rgb(85, 81, 81) solid;
+    height: 50%;
+    object-fit: cover;
+}
+
+ul{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgba(255, 255, 255, 0.521);
+}
